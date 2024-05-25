@@ -1,0 +1,21 @@
+{
+  "name": "carneades",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node getUrls.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^20.4.0"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "puppeteer": "^20.8.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}

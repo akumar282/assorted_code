@@ -1,0 +1,17 @@
+{
+  "name": "cookery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "getBrowseUrls.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node extractData.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "type": "module"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "canary_scraper",
+  "version": "0.1.0",
+  "description": "A web scraper for canary",
+  "main": "index.js",
+  "author": "Preston Harrison",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "format": "prettier -w '**/*.ts'"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.8",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@types/mssql": "^8.1.2",
+    "axios": "^1.4.0",
+    "mssql": "^9.1.1",
+    "node-html-parser": "^6.1.5",
+    "redis": "^4.6.6",
+    "zod": "^3.21.4"
+  }
+}

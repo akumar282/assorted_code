@@ -1,0 +1,25 @@
+{
+  "name": "cornucopia",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-specifier-resolution=node dist/main.js",
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/mssql": "^8.1.2",
+    "esm": "^3.2.25",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12",
+    "mssql": "^9.1.1",
+    "node-html-parser": "^6.1.5",
+    "ts-node": "^10.9.1"
+  }
+}
